@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Made with love ❤️ by 10shepherd!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo 'No tests implemented yet' && exit 0"
+  },
+  "keywords": [],
+  "author": "10shepherd",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bufferutil": "^4.0.9",
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.5.0",
+    "utf-8-validate": "^6.0.5",
+    "winston": "^3.17.0"
+  }
+}
